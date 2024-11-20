@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breath Together</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header>
+        <div class="nav-left">
+            <button class="nav-button" id="info-button">Info</button>
+            <button class="nav-button" id="how-button">How to Play</button>
+        </div>
+        <h1 class="main-title">Breath Together</h1>
+        <div class="nav-right">
+            <button class="nav-button" id="music-button">Music</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="guide-container">
+            <p id="welcome-text" class="guide-text"></p>
+            <div class="dot"></div>
+        </div>
+        <div class="webcam-container">
+            <video id="webcam" autoplay muted></video>
+        </div>
+        <button id="next-button" class="nav-button" style="display: none;">Next</button>
+    </main>
+
+    <script src="webcam.js"></script>
+</body>
+</html>
